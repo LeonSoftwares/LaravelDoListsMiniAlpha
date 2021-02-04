@@ -1,0 +1,37 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Bootstrap icon
+
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+
+// App styles
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+#app {
+	height: 100%;
+}
+
+.action-edit {
+	font-size: 1.5rem;
+}
+
+.move-handler {
+	font-size: 1.5rem;
+    padding-right: 8px;
+    color: #3a90dc;
+    cursor: all-scroll;
+}
